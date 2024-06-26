@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+    <string name="upi">UPI</string>
+    <string name="coffee">Coffee</string>
+    <string name="netflix">Entertainment</string>
+    <string name="income">Income</string>
+    <string name="youtube">Youtube</string>
+    <string name="other">Other</string>
+    <string name="delete">Reset Tracker</string>
+</resources>

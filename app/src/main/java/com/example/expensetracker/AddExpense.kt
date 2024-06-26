@@ -174,7 +174,12 @@ fun DataForm(modifier: Modifier,onAddExpenseClick:(model:ExpenseEntity)->Unit){
         Spacer(modifier = Modifier.size(4.dp))
         ExpenseTextView(text = "Amount:", fontSize = 14.sp, color = Color.Gray)
         Spacer(modifier = Modifier.size(4.dp))
-        OutlinedTextField(value = amount, onValueChange = {amount=it}, modifier = Modifier.fillMaxWidth(), singleLine = true)
+        OutlinedTextField(
+            value = amount,
+            onValueChange = {amount=it},
+            modifier = Modifier.fillMaxWidth(),
+            singleLine = true,
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Decimal))
         Spacer(modifier = Modifier.size(4.dp))
         //Date
         ExpenseTextView(text = "Date:", fontSize = 14.sp, color = Color.Gray)
